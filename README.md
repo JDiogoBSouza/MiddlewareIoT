@@ -3,7 +3,7 @@ Um middleware simples desenvolvido com o node-red.
 
 Formato de Requisição API-Web
 
-POST:
+# POST
 
 Enviar um ou mais dados para o middleware:
 
@@ -24,7 +24,7 @@ Body:
 
 Para enviar mais de um dado, basta adiciona-lo ao array de dados.
 
-GET:
+# GET
 
 Retornar todos os dados de um dispositivo:
 Url: http://localhost:1880/getDeviceData/{deviceToken}
@@ -84,7 +84,7 @@ Formato de Resposta:
     "deviceToken": "deviceToken"
 }
 
-DELETE:
+# DELETE:
 
 Deletar todos os dados de um dispositivo:
 Url: http://localhost:1880/deleteDeviceData/{deviceToken}
@@ -104,7 +104,7 @@ Url: http://localhost:1880/deleteDeviceData/{deviceToken}/{sensor}/{start}/{end}
 Body: Empty
 
 
-PUT:
+# PUT
 
 Atualizar dado de um sensor em um dispositivo.
 Url:
