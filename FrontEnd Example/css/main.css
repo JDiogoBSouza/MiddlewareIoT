@@ -1,0 +1,22 @@
+.box{
+    float:left;
+    margin-right:20px;
+}
+.clear{
+    clear:both;
+}
+
+.jumbotron {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.centered-tabs {
+  text-align: center;
+}
+.centered-tabs .nav-tabs > li {
+  float: none !important; /* Avoid !important, added for SO snippet priority */
+}
+.centered-tabs .nav > li {
+  display: inline-block !important;
+}
